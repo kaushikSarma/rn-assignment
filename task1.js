@@ -1,4 +1,4 @@
-const input = [3, 12, 3, -1, 3, 11, 3, 4, 5, 12, 11, 45, 87, 12];
+const input = [3, 12, 3, -1, 3, 11, 3, 4, 5, 12, 11, 45, 87, 12, 4, 4, 4, 4];
 
 function frequent(arr) {
 	if(!Array.isArray(arr)) {
@@ -14,7 +14,7 @@ function frequent(arr) {
 		const frequency = frequencyMap[currentElement] || 0;
 		frequencyMap[currentElement] = frequency + 1;
 		if(frequencyMap[maxFrequent] < frequencyMap[currentElement]) {
-			maxFrequent = currenntElement;
+			maxFrequent = currentElement;
 		}
 	}
 	return `${maxFrequent} (${frequencyMap[maxFrequent]} times)`;
