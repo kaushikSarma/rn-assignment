@@ -2,7 +2,7 @@ import React from 'react';
 import { Dimensions, FlatList, Image, SafeAreaView, StyleSheet, Text, View } from 'react-native';
 
 const DUMMY_PRODUCT = {
-	productImageSource: require('./resources/tshirt-image.png'),
+	productImageSource: require('../resources/tshirt-image.png'),
 	productImageTitle: 'V Neck t-shirt',
 	productPrice: 24.99
 };

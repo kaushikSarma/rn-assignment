@@ -3,9 +3,8 @@ import { Image } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import * as Icons from './src/resources/Icons';
-import Page from './src/Page';
+import Page from './src/AssignmentsConnect3/Page';
 
-const BOTTOM_BAR_HEIGHT = 52;
 const Tab = createBottomTabNavigator();
 
 const routeConfig = [
