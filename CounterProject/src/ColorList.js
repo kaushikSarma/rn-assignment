@@ -148,7 +148,7 @@ export default function ColorList() {
 		}]}>
 			<Navbar title={'Colors'}/>
 			{colorList.length === 0 && <View style={styles.colorContainer}>
-				<Text style={{ color: 'grey' }}>Click on a color below to add to the list</Text>
+				<Text style={{ color: 'grey' }}>Click a color below to add to the list</Text>
 			</View>}
 			{colorList.length > 0 && <FlatList
 				contentContainerStyle={[
