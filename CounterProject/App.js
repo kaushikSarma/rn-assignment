@@ -15,6 +15,7 @@ const routeConfig = [
   {name: 'More', component: Page, tabIcon: Icons.IconMenu},
 ];
 
+// section for connect 3 assignment
 export default function App() {
     return (
       <NavigationContainer>
